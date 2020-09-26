@@ -20,7 +20,7 @@ Advanced Android Lab
 ### App Walkthough GIF
 
 <img src="Video-Walkthrough-portrait.gif" width=250 title="Portratit mode" alt="portratit"><br>
-<img src="Video-Walkthrough-land.gif" width=400 title="Landscape node" alt="landscape><br>
+<img src="Video-Walkthrough-land.gif" width=400 title="Landscape mode" alt="landscape"><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
