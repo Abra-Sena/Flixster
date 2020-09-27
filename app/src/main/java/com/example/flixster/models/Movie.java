@@ -22,11 +22,9 @@ public class Movie {
 
     public static List<Movie> fromJSONArray(JSONArray movieJsonArray) throws JSONException {
         List<Movie> movies = new ArrayList<>();
-
         for(int i = 0; i < movieJsonArray.length(); i++) {
             movies.add(new Movie(movieJsonArray.getJSONObject(i)));
         }
-
         return  movies;
     }
 

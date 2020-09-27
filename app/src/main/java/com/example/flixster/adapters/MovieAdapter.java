@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.example.flixster.R;
 import com.example.flixster.models.Movie;
 
@@ -66,10 +67,12 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             tvTitle.setText(movie.getTitle());
             tvOverview.setText(movie.getOverview());
             String imageUrl;
+            int radius = 30;
+            int margin = 10;
             //if is phone is in landscape mode
             if(context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
                 imageUrl = movie.getBackdropPath();
-            } else { //phone is in portrit mode
+            } else { //phone is in portrait mode
                 imageUrl = movie.getPosterPath();
             }
             Glide.with(context).load(imageUrl).into(ivPoster);
