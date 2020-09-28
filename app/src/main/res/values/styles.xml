@@ -8,10 +8,10 @@
     </style>
 
     <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/colorGray</item>
+        <item name="android:background">@color/colorWhite</item>
 
         <!-- Support library compatibility -->
-        <item name="background">@color/colorGray</item>
+        <item name="background">@color/colorWhite</item>
     </style>
 
 </resources>
