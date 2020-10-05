@@ -2,16 +2,17 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBar</item>
-
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
         <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
     <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/colorWhite</item>
+        <item name="android:background">@color/colorGray</item>
 
         <!-- Support library compatibility -->
-        <item name="background">@color/colorWhite</item>
+        <item name="background">@color/colorGray</item>
     </style>
 
 </resources>
